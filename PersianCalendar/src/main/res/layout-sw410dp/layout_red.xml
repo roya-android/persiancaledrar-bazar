@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/sefednoti"
+    android:paddingTop="0dp"
+
+    >
+
+    <TextView
+        android:id="@+id/imagenotileft"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle1"
+        android:contentDescription="@string/app_name"
+        android:fontFamily="@font/b1"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@+id/imagenotileft"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/b1"
+            android:gravity="right|top"
+            android:text="title"
+            android:textColor="#261500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/b1"
+            android:gravity="right|top"
+            android:paddingTop="0dp"
+            android:text="tttttttt"
+            android:textColor="#261500"
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

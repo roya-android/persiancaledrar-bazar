@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    android:background="@drawable/roydad"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout">
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+
+        android:layout_height="98dp"
+        android:layout_alignBottom="@+id/textView5"
+
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/txtroz"
+
+        android:layout_toRightOf="@+id/txthafte"
+        android:background="#c1c1c1" />
+
+    <TextView
+        android:id="@+id/txtroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        android:text="پنج شنبه"
+        android:textSize="14dp" />
+
+    <TextView
+        android:textColor="#000000"
+
+        android:id="@+id/txtaddad"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/txtroz"
+        android:layout_alignRight="@+id/txtroz"
+        android:layout_below="@+id/txtroz"
+
+        android:text="31"
+        android:textSize="22dp" />
+
+    <TextView
+        android:textColor="#000000"
+
+        android:id="@+id/txthafte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/txtroz"
+        android:layout_alignStart="@+id/txtroz"
+        android:layout_below="@+id/txtaddad"
+        android:text="روز صفر"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtroydad"
+        android:textColor="#000000"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtroz"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/view"
+        android:layout_toRightOf="@+id/view"
+        android:gravity="right|center"
+        android:text="رویدادهایه سال"
+        android:textSize="14sp" />
+</RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@drawable/roydad"
+        android:id="@+id/relativeLayout2">
+
+
+        <Button
+            android:id="@+id/btn_show"
+            android:elevation="8dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/sp1"
+            android:text="نمایش رویداد" />
+
+        <Spinner
+            android:id="@+id/sp1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/sp2"
+            android:textColor="#000000"
+
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/sp1"
+            android:layout_marginEnd="12dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:elevation="12dp"
+        android:layout_below="@id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/roydad"
+        android:padding="0dp">
+
+        <TextView
+            android:textColor="#000000"
+
+            android:id="@+id/txtheader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_margin="10dp"
+            android:hint="نمایش رویدادها"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/roydad"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+
+        android:layout_height="88dp"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/txtroz"
+        android:layout_toRightOf="@+id/txtroz"
+        android:background="#c1c1c1" />
+
+    <TextView
+        android:id="@+id/txtroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="پنج شنبه"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtaddad"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+
+
+        android:layout_alignEnd="@+id/txtroz"
+        android:layout_alignRight="@+id/txtroz"
+        android:layout_below="@+id/txtroz"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:gravity="center"
+        android:text="31"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/txtroz"
+        android:layout_alignStart="@+id/txtroz"
+        android:layout_below="@+id/txtaddad"
+        android:text="اردیبهشت"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtroydad"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/txtroz"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/view"
+        android:layout_toRightOf="@+id/view"
+        android:gravity="right|center"
+        android:text="رویدادهایه سال"
+        android:textSize="17sp" />
+</RelativeLayout>

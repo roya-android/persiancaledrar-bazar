@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <attr format="reference" name="colorCard"/>
+    <attr format="reference" name="colorBackground"/>
+    <attr format="reference" name="colorTextPrimary"/>
+    <attr format="reference" name="colorIcon"/>
+    <attr format="reference" name="colorTextNormal"/>
+    <attr format="reference" name="colorTextSecond"/>
+    <attr format="reference" name="colorTextHoliday"/>
+    <attr format="reference" name="colorHoliday"/>
+    <attr format="reference" name="colorTextDrawer"/>
+    <attr format="reference" name="colorTextDay"/>
+    <attr format="reference" name="colorTextDayName"/>
+    <attr format="reference" name="colorMonthSwitch"/>
+    <attr format="reference" name="colorTextAthan"/>
+    <attr format="reference" name="colorDivider"/>
+    <attr format="reference" name="colorCurrentDay"/>
+    <attr format="reference" name="colorSelectDay"/>
+    <attr format="reference" name="colorDrawerBackground"/>
+    <attr format="reference" name="colorDrawerSelect"/>
+    <attr format="reference" name="colorDrawerIcon"/>
+
+    <attr format="reference" name="circleCurrentDay" />
+    <attr format="reference" name="circleSelect" />
+    <attr format="reference" name="appDivider" />
+
+    <style name="AppTheme.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#33000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+
+    </style>
+
+
+    <!-- شروع تم اصلی برنامه -->
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2b2b2b</item>
+        <item name="colorPrimaryDark">#2b2b2b</item>
+        <item name="colorAccent">#2b2b2b</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#2b2b2b</item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/dark_primary</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_text_normal</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+    </style>
+
+    <!-- پایان تم اصلی برنامه-->
+
+    <!-- تم صورتی برنامه -->
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#c7008b</item>
+        <item name="colorPrimaryDark">#c7008b</item>
+        <item name="colorAccent">#c7008b</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#c7008b</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon5</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon5</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+
+
+    </style>
+    <!-- پایان تم بنفش برنامه -->
+
+
+
+
+
+    <!-- شروع تم نارنجی برنامه-->
+
+    <style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#af4c00</item>
+        <item name="colorPrimaryDark">#af4c00</item>
+        <item name="colorAccent">#af4c00</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#af4c00</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon6</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon6</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+    </style>
+
+    <!-- پایان تم نارنجی برنامه-->
+
+
+
+    <!-- شروع تم سبز برنامه-->
+
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00564d</item>
+        <item name="colorPrimaryDark">#00564d</item>
+        <item name="colorAccent">#00564d</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#00564d</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon4</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon4</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+    </style>
+
+    <!-- پایان تم سبز برنامه-->
+
+
+
+    <!-- شروع تم آبی برنامه -->
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0012b1</item>
+        <item name="colorPrimaryDark">#0012b1</item>
+        <item name="colorAccent">#0012b1</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#0012b1</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon3</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon3</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+    </style>
+
+    <!-- پایان تم آبی برنامه-->
+
+
+<!--شروع تم قرمز برنامه-->
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#b30004</item>
+        <item name="colorPrimaryDark">#b30004</item>
+        <item name="colorAccent">#b30004</item>
+        <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#b30004</item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="colorCard">@color/light_card_background</item>
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon2</item>
+        <item name="colorTextNormal">@color/light_text_normal</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_text_holiday</item>
+        <item name="colorHoliday">@color/light_holiday</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_text_day_name</item>
+        <item name="colorTextAthan">@color/light_text_athan</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_current_day</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon2</item>
+        <item name="colorMonthSwitch">@color/light_month_switch</item>
+        <item name="circleCurrentDay">@drawable/circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+    </style>
+
+    <!-- پایان تم قرمز برنامه-->
+
+
+
+
+    <style name="FullscreenTheme" parent="LightTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ShadowTextStyle">
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>
